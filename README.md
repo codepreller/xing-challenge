@@ -1,6 +1,6 @@
 # solution for the xing qa coding challenge 
 
-an automated test suite of the inqres api 
+an automated test suite of the reqres api 
 
 ## requirements / tested with:
 - Java JDK 8 (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
