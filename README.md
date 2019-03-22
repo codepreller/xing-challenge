@@ -18,10 +18,10 @@ an automated test suite of the reqres api
 
 ## execution:
 - if you chose the ide variant you can execute the suite by executing **clean** followed by a **verify**.
-- if you chose the second variant you can switch to the root folder of the project and execute it via: `mvn clean install`
+- if you chose the second variant you can switch to the root folder of the project and execute it via: `mvn clean verify`
 
 ## reporting:
-- serenity bdd creates a neat test report. you can find the index.html under target/site/serenity/
+- serenity bdd creates a neat test report (if you executed verify). you can find the index.html under target/site/serenity/ after the suite run
 
 ## architecture overview:
 - the test runner is implemented in test/java/de/xing/APITest.java
